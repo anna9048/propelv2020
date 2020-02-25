@@ -2,7 +2,7 @@ package com.mvc.bean;
 
 public class LoginBean {
 	
-	//Variables
+	// Instance Variables
 	private String userName,password;
 	
 	//Default Constructor
@@ -10,7 +10,7 @@ public class LoginBean {
 		// TODO Auto-generated constructor stub
 	}
 	
-	//Parameterized Constructor
+	//Parameterized Constructor to pass value to bean
 	public LoginBean(String userName, String password) {
 		super();
 		this.userName = userName;
